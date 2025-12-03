@@ -10,10 +10,10 @@ export function SiteHeader() {
                     <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">React Bits</span>
                 </Link>
                 <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-300/80">
-                    <Link href="#components" className="hover:text-white transition-colors">Components</Link>
-                    <Link href="#examples" className="hover:text-white transition-colors">Examples</Link>
-                    <Link href="#docs" className="hover:text-white transition-colors">Docs</Link>
-                    <Link href="#about" className="hover:text-white transition-colors">About</Link>
+                    <Link href="/components" className="hover:text-white transition-colors">Components</Link>
+                    <Link href="/examples" className="hover:text-white transition-colors">Examples</Link>
+                    <Link href="/docs" className="hover:text-white transition-colors">Docs</Link>
+                    <Link href="/#about" className="hover:text-white transition-colors">About</Link>
                 </nav>
                 <div className="flex items-center gap-4">
                     <Link
